@@ -1,0 +1,5 @@
+{
+	"nics": [
+		{ "nic_tag": "admin", "ips": ["192.168.10.2/24", "2a01:138:a015:10::2/64"], "gateway": "192.168.10.1", "allow_dhcp_spoofing": true, "vlan_id": 2 }
+	]
+}

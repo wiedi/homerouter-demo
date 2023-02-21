@@ -1,0 +1,18 @@
+{
+  "brand": "joyent",
+  "image_uuid": "__BASE64__",
+  "alias":    "__ALIAS__",
+  "hostname": "__ALIAS__.__DOMAIN__",
+  "resolvers": [
+    "__DNS1__",
+    "__DNS2__"
+  ],
+  "max_physical_memory": __RAM__,
+  "max_swap":            __RAM__,
+  "customer_metadata": {
+      "root_authorized_keys": "__ROOT_AUTHORIZED_KEYS__",
+      "mail_adminaddr":       "__MAIL_ADMINADDR__",
+      "mail_smarthost":       "__MAIL_SMARTHOST__",
+      "munin_master_allow":   "__MUNIN_MASTER_ALLOW__"
+  }
+}
